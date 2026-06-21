@@ -1,0 +1,3 @@
+# Samples are kept as plain text in-repo (small, diffable) — never LFS.
+*.jsonl -text
+samples/*.jsonl -filter -diff -merge
